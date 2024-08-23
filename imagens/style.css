@@ -1,0 +1,49 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+
+
+header li{
+    display: inline;
+    flex-direction: row;
+}
+
+header {
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header li a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+h1 {
+    color: #000;
+}
+
+.artigos {
+    display: flex;
+    
+}
+
+.artigos article img {
+    height: 180px;
+
+}
+
+.artigos article a:hover {
+    background-color: #0067a2;
+}
+
+article {
+    border: 1px solid #0067a2;
+    margin: 10px 5px;
+    padding: 10px 10px;
+}
